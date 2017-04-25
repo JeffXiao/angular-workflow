@@ -1,0 +1,13 @@
+
+<label for="name">Diagnosis</label>
+<div class="form-group">
+  <textarea type="textarea" class="form-control" name="name" ng-model="formData.diagnosis"></textarea>
+</div>
+
+<div class="form-group row">
+  <div class="col-xs-6 col-xs-offset-3">
+    <button ui-sref="form.payment" class="btn btn-block btn-info" ng-disabled="!formData.diagnosis">
+      Next Step <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<label>What are the patient symptoms?</label>
+<div class="form-group">
+    <div class="checkbox">
+        <label>
+           <input type="checkbox" ng-model="formData.fever" value="xbox" checked>Fever</input>
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox" ng-model="formData.diarhea" value="ps">Diarhea</input>
+        </label>
+    </div>
+</div>
+
+<div class="form-group row">
+  <div class="col-xs-6 col-xs-offset-3">
+      <a ui-sref="form.diagnosis" class="btn btn-block btn-info">
+      Next Step <span class="glyphicon glyphicon-circle-arrow-right"></span>
+      </a>
+  </div>
+</div>
